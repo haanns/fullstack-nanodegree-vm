@@ -7,3 +7,6 @@
 -- these lines here.
 
 
+ CREATE DATABASE tournament;
+ CREATE TABLE Matches (Id serial, Winner integer, Loser integer, PRIMARY KEY (Id));
+ CREATE TABLE Players (Id serial, Name varchar);
